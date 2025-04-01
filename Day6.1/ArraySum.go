@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-func main() {
-	arr := [5]int{10, 20, 30, 40, 50}
-	sum := 0
+func main(){
+	arr:=[5]int{1,2,3,4,5}
+	sum:=0
 
-	for _, value := range arr {
-		sum = sum + value
+	for _, value:=range arr{
+		sum=sum+value
 	}
-	fmt.Println("Sum of array :", sum)
+	fmt.Println("Sum of array elements:",sum)
 }
